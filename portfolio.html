@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio - Nexara UI/UX</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">Nexara</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <input type="checkbox" id="theme-toggle">
+                    <label for="theme-toggle" class="theme-toggle-label">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                        <span class="ball"></span>
+                    </label>
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio-hero">
+            <div class="container">
+                <h1>Our Portfolio</h1>
+                <p>Explore our recent projects and see how we've helped clients achieve their goals.</p>
+            </div>
+        </section>
+
+        <section class="portfolio-filter">
+            <div class="container">
+                <ul>
+                    <li class="active" data-filter="all">All</li>
+                    <li data-filter="web">Web Design</li>
+                    <li data-filter="mobile">Mobile Apps</li>
+                    <li data-filter="branding">Branding</li>
+                    <li data-filter="ux">UX Research</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="portfolio-grid">
+            <div class="container">
+                <div class="portfolio-item" data-category="web">
+                    <img src="images/web-project1.jpg" alt="E-commerce Website">
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Platform</h3>
+                        <p>Complete redesign that increased conversions by 35%</p>
+                        <a href="#" class="btn">View Case Study</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <img src="images/mobile-project1.jpg" alt="Fitness App">
+                    <div class="portfolio-overlay">
+                        <h3>Fitness Tracker App</h3>
+                        <p>Mobile app that helps users track workouts and nutrition</p>
+                        <a href="#" class="btn">View Case Study</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <img src="images/branding-project1.jpg" alt="Coffee Brand">
+                    <div class="portfolio-overlay">
+                        <h3>Artisan Coffee Brand</h3>
+                        <p>Brand identity and packaging design</p>
+                        <a href="#" class="btn">View Case Study</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ux">
+                    <img src="images/ux-project1.jpg" alt="Banking App">
+                    <div class="portfolio-overlay">
+                        <h3>Banking App UX Overhaul</h3>
+                        <p>Reduced user drop-off by 60% with improved flows</p>
+                        <a href="#" class="btn">View Case Study</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="images/web-project2.jpg" alt="SaaS Dashboard">
+                    <div class="portfolio-overlay">
+                        <h3>SaaS Dashboard</h3>
+                        <p>Complex data visualization made simple</p>
+                        <a href="#" class="btn">View Case Study</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <img src="images/mobile-project2.jpg" alt="Travel App">
+                    <div class="portfolio-overlay">
+                        <h3>Travel Planning App</h3>
+                        <p>Itinerary creation with social features</p>
+                        <a href="#" class="btn">View Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Want to see what we can do for you?</h2>
+                <a href="contact.html" class="btn">Start a Project</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Nexara</h3>
+                    <p>Creating exceptional digital experiences through thoughtful UI/UX design.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> hello@nexara.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Nexara UI/UX. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
