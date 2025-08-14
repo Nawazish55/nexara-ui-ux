@@ -874,3 +874,63 @@ a {
         gap: 0.5rem;
     }
 }
+/* Services Page Specific */
+.page-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-graphic img {
+  max-width: 100%;
+  filter: drop-shadow(0 20px 30px rgba(108, 99, 255, 0.3));
+}
+
+.service-card {
+  background: rgba(15, 15, 25, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--primary);
+  background: rgba(108, 99, 255, 0.1);
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.service-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.5rem;
+}
+
+.service-card ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-card ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 8px;
+  height: 8px;
+  background: var(--primary);
+  border-radius: 50%;
+}
